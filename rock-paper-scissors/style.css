@@ -1,15 +1,15 @@
 body{
-    background-color: rgba(127, 0, 159, 0.948);
+    background-color: rgba(154, 0, 193, 0.948);
     height: 100vh;
     display: flex;;
     flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1{
     text-align: center;
     margin-top: 32px;
-    font-family:Arial, Helvetica, sans-serif;
-    margin-bottom: 120px;
+    margin-bottom: 64px;
 }
 
 
@@ -17,6 +17,7 @@ h1{
 .options{      
     gap:1em;
     display:flex;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     padding: 0;
@@ -29,6 +30,7 @@ h1{
     height: 100px;
 }
 
+
 .water,
 .fire,
 .grass{
@@ -39,11 +41,28 @@ h1{
 }
 
 .instructions{
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     text-align: center;
     font-weight: bold;
 }
+
+#play{
+    width: 240px;
+    height: 80px;
+    border-radius: 12px;
+    font-size: 18px;
+    
+}
+
+#results{
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 550;
+    
+}
+
+
 
 
 
