@@ -10,24 +10,28 @@
     <h1>Welcome to the Clash of Elements!</h1>
 
     <div class="instructions">
-        <p class="basic">Water beats fire, fire beats grass and grass beats water!</p>
+        <p class="basic" id="test">Water beats fire, fire beats grass and grass beats water!</p>
     </div>
 
     <div class="options">
-        <button class="water"><img src="images/water.svg"></button>
-        <button class="fire"><img src="images/fire.svg"></button>
-        <button class="grass"><img src="images/grass.svg"></button>
+        <button class="water" id="waterBtn"><img src="images/water.svg"></button>
+        <button class="fire" id="fireBtn"><img src="images/fire.svg"></button>
+        <button class="grass" id="grassBtn"><img src="images/grass.svg"></button>
     </div>
 
     <div class="instructions">
-        <p>Click an option to begin!</p>
+        <p>Click an option to and press play!</p>
+        <button id="play">PLAY</button>
     </div>
     
-    <div class="result">
-
+    <div id="results">
+        <p id="roundCount"></p>
+        <p id="playerResult"></p>
+        <p id="computerResult"></p>
+        <p id="matchResult"></p>
     </div>
     
 
-    <script src="rockPaperScissor.js" ></script>
+    <script src="script.js" ></script>
 </body>
 </html>
